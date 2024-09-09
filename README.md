@@ -78,6 +78,7 @@ Output Files
 JSON Output: Both the sbert_test_report.py and anferico_test_report.py scripts will save their results in a JSON file. The file contains:
 
 **Search criteria**
+
 Patent numbers and their positions in the retrieval results
 Evaluation metrics (Precision, Recall, MRR)
 Excel Output: The test_output_json_to_excel.py script converts the JSON output into an Excel file for easy access and review of the data.
