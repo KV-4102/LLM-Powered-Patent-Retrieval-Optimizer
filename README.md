@@ -57,19 +57,24 @@ This will generate an Excel file containing all the relevant information from th
 **Scripts Description**
 
 1. sbert_test_report.py
+   
 This script:
 
 Loads the AI-Growth-Lab/PatentSBERTa model.
 Retrieves patents based on search criteria provided in the input JSON file.
 Evaluates results for Precision, Recall, and MRR.
 Saves the results to an output JSON file.
+
 2. anferico_test_report.py
+   
 This script:
 
 Loads the anferico/bert-for-patents model.
 Similar to the SBERT script, it retrieves patents and evaluates search results for precision, recall, and MRR.
 Saves the output to the same or a different JSON file.
+
 3. test_output_json_to_excel.py
+   
 This script:
 
 Reads data from the output JSON file.
